@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 
 function LocationCard({location}) {
 const {name, type, image, address} = location
+const [loveButton, setLoveButton] = useState(true)
+
+function toggleLove(){
+  setLoveButton(!loveButton)
+}
 
   return (
     <li className="card">
@@ -9,10 +14,10 @@ const {name, type, image, address} = location
       <h4>{name}</h4>
       <p>Type: {type}</p> 
       <p>Address: {address}</p> 
-      {true ? (
-        <button className="primary">Add To Favorites</button>
+      {loveButton ? (
+        <button onClick={toggleLove} className="primary">🤍 Loved It Here! 🤍</button>
       ) : (
-        <button>Remove From Favorites</button>
+        <button onClick={toggleLove}>🚫 Wouldn't Come Back 🚫</button>
       )}
     </li>
   );

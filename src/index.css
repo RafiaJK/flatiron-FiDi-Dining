@@ -1,5 +1,5 @@
 :root {
-  --green: rgb(141, 20, 14);
+  --brick: rgb(141, 20, 14);
 }
 
 * {
@@ -24,7 +24,7 @@ button {
 }
 
 button.primary {
-  background-color: var(--green);
+  background-color: var(--brick);
   color: rgb(59, 0, 0);
 }
 
@@ -130,7 +130,8 @@ input:focus {
 
 .card button {
   margin-top: 0.5rem;
-  color: white
+  background-color: rgb(91, 5, 5);
+  color: white;
 }
 
 @media (min-width: 768px) {

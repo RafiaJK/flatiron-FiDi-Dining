@@ -11,17 +11,9 @@ function App() {
     <div className="App">
       <h1>FiDi Dining</h1>
       <main>
-      {/* <NavBar/> */}
-      {/* <Switch>
-          <Route exact path="/locations"> */}
-          <LocationsPage/>
-          <NavBar/>
- 
-          {/* </Route> */}
-          {/* <Route exact path="/form"> */}
-            {/* <Form handleChange={handleChange} handleSubmit={handleSubmit}/> */}
-          {/* </Route>
-      </Switch> */}
+        <NavBar/>
+        <LocationsPage/>
+          
       </main>
     </div>
   );
