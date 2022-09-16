@@ -3,8 +3,6 @@ import Form from "./Form";
 import LocationsContainer from "./LocationsContainer";
 import Search from "./Search";
 import {Switch, Route, router} from "react-router-dom"
-import NavBar from "./NavBar";
-
 
 function LocationsPage() {
     const [locations, setLocations] = useState([])
@@ -45,22 +43,19 @@ function filterLocations (search){
       
         <Switch>
         <Route exact path="/">
-          <Search filterLocations={filterLocations}/>
-        <LocationsContainer locations={filteredLocations}/>
-        <Form updateLocations={updateLocations}/>
+          <LocationsContainer locations={filteredLocations}/>
         </Route>
+
         <Route exact path="/search">
-        <Search filterLocations={filterLocations}/>
-        <LocationsContainer locations={filteredLocations}/>
+          <Search filterLocations={filterLocations}/>
+          <LocationsContainer locations={filteredLocations}/>
         </Route>
+
         <Route exact path="/form">
-        <Form updateLocations={updateLocations}/>
+          <Form updateLocations={updateLocations}/>
+          <LocationsContainer locations={filteredLocations}/>
         </Route>
       </Switch>
-
-     {/* <Search filterLocations={filterLocations}/>
-      <LocationsContainer locations={filteredLocations}/>
-      <Form updateLocations={updateLocations}/> */}
       
     </main>
   );

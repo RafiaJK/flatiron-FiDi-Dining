@@ -12,12 +12,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>FiDi Dining</h1>
+      <h1>FiDi 🍽 Dining</h1>
       <BrowserRouter>
       <main>
         <NavBar />
         <LocationsPage />
-
       </main>
       </BrowserRouter>
     </div>

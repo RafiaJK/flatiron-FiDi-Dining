@@ -111,6 +111,13 @@
       "image": "https://media-cdn.tripadvisor.com/media/photo-s/10/a6/89/3d/exterior-outdoors.jpg",
       "address": "88 Broad St, New York, NY 10004",
       "id": 16
+    },
+    {
+      "name": "Dante Seaport",
+      "type": "Bar",
+      "image": "https://images.getbento.com/accounts/8742e6f4a15cbfa67938fd4a5f850569/media/images/39875Seaport_May17__-100.jpg",
+      "address": " 89 South St, New York, NY 10038",
+      "id": 17
     }
   ]
 }

@@ -49,7 +49,7 @@ button.primary {
   font-size: 1.25em;
   padding-left: 0.5rem;
   color: transparent;
-  text-shadow: 0 0 0 var(--green);
+  text-shadow: 0 0 0 var(--brick);
 }
 
 main {
@@ -112,7 +112,7 @@ input {
 
 input:focus {
   outline: none;
-  border-bottom: 2px solid var(--green);
+  border-bottom: 2px solid var(--brick);
 }
 
 .cards {

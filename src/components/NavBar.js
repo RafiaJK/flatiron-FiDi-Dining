@@ -18,11 +18,13 @@ function NavBar() {
               <div>
                 <nav>
                   
-                      <Link to="/" exact>Home </Link>
+                      <Link to="/" exact>Home | </Link>
+
+                      <Link to="/search" exact>Search | </Link>   
                     
-                      <Link to="/form" exact>Form </Link>
+                      <Link to="/form" exact>Add A New Location</Link>
                   
-                      <Link to="/search" exact>Search</Link>    
+                       
                 </nav>
                 </div>
          
