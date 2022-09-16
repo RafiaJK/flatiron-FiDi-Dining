@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>FidiDining</h1>
+      <h1>FiDi Dining</h1>
       <main>
       {/* <NavBar/> */}
       {/* <Switch>

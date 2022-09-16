@@ -26,23 +26,26 @@ function Form({updateLocations, addLocation}) {
     fetch("http://localhost:3001/locations", {
       method: "POST",
       headers: {
-        "Accept": "application/json",
+       "Accept": "application/json",
        "Content-Type":"application/json"
     },
      body: JSON.stringify(newLocation),
     });
   }
 
-
-
   return (
     <div className="new-location-form">
-      <h2>Add Location</h2>
+      <h2>Don't see your destination? Add it now!</h2>
       <form onSubmit={addLocation}>
         <input onChange={handleChange} value={formInput.name} type="text" name="name" placeholder="Name" />
         <input onChange={handleChange} value={formInput.image} type="text" name="image" placeholder="Image URL" />
         <input onChange={handleChange} value={formInput.address} type="text" name="address" placeholder="Address" /> 
-        <button type="submit">Add Location</button>
+        <select onChange={handleChange} value={formInput.type} name="type" id="selectList">
+          <option name="☕️ Cafe">Cafe</option>
+          <option name="🍸 Bar">Bar</option>
+          <option name="🍽 Restaurant">Restaurant</option>
+        </select>
+        <button type="submit">ADD LOCATION</button>
       </form>
     </div>
   );

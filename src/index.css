@@ -1,5 +1,5 @@
 :root {
-  --green: rgb(39, 189, 39);
+  --green: rgb(141, 20, 14);
 }
 
 * {
@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h2 {
@@ -28,16 +28,21 @@ button.primary {
   color: rgb(59, 0, 0);
 }
 
-.app {
+.App {
   margin: 0 auto;
-  max-width: 1200px;
+  max-height: 1200px;
+  background-color: rgb(255, 252, 246);
 }
 
-header h1 {
+.App h1 {
   font-size: 2.5em;
   font-weight: 900;
   text-align: center;
   padding: 0.5rem 0;
+  text-align: center;
+  font-style:bold;
+  background-color: maroon;
+  color: white;
 }
 
 .logo {
@@ -55,6 +60,8 @@ main {
   padding: 2rem 1rem;
   margin: 2rem 0;
   background-color: rgba(253, 210, 154, 0.5);
+  color: rgb(88, 26, 2);
+  font-style: italic;
 }
 
 .new-location-form form {
@@ -69,6 +76,17 @@ main {
 
 .new-location-form button {
   width: 150px;
+  background-color: rgb(88, 26, 2);
+  color: white;
+  border-style: ridge;
+}
+
+.new-location-form select {
+  width: 150px;
+  color: rgb(27, 27, 27)(36, 36, 36);
+  margin-right: 5px;
+  font-size: 1.2em;
+  font-family: inherit;
 }
 
 .searchbar {
@@ -103,6 +121,7 @@ input:focus {
 
 .card {
   margin: 1rem;
+  color: rgb(29, 2, 2);
 }
 
 .card img {
@@ -111,6 +130,7 @@ input:focus {
 
 .card button {
   margin-top: 0.5rem;
+  color: white
 }
 
 @media (min-width: 768px) {

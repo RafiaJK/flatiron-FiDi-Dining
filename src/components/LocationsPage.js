@@ -24,8 +24,8 @@ function filterLocations (search){
   } else {
     setFilteredLocations(locations.filter(location => {
       return location.name.toLowerCase().includes(search.toLowerCase()) 
-      // || location.type.toLowerCase().includes(search.toLowerCase()) 
-      // || location.address.toLowerCase().includes(search.toLowerCase())
+      || location.type.toLowerCase().includes(search.toLowerCase()) 
+      || location.address.toLowerCase().includes(search.toLowerCase())
     }))
   }
 }
@@ -39,9 +39,9 @@ function filterLocations (search){
 
   return (
     <main>
-      <Form updateLocations={updateLocations}/>
       <Search filterLocations={filterLocations}/>
       <LocationsContainer locations={filteredLocations}/>
+      <Form updateLocations={updateLocations}/>
     </main>
   );
 }

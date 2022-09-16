@@ -3,72 +3,114 @@
     {
       "id": 1,
       "name": "The Cauldron",
-      "type": "bar",
+      "type": "🍸 Bar",
       "image": "https://d2rf0detuhmti.cloudfront.net/wp-content/uploads/2019/11/tree-of-life.jpg",
       "address": "47 Stone St, New York, NY 10004"
     },
     {
       "id": 2,
       "name": "Trinity Place",
-      "type": "restaurant",
+      "type": "🍽 Restaurant",
       "image": "https://resizer.otstatic.com/v2/photos/wide-huge/3/47910875.jpg",
       "address": "115 Broadway, New York, NY 10006"
     },
     {
       "id": 3,
       "name": "787 Coffee",
-      "type": "cafe ☕️",
+      "type": "☕️ Cafe",
       "image": "https://s3-media0.fl.yelpcdn.com/bphoto/iPBAOCeZ095xr8Be3_Ww1g/348s.jpg",
       "address": "66 Pearl St, New York, NY 10004"
     },
     {
       "id": 4,
       "name": "Cafe Grumpy",
-      "type": "cafe ☕️",
+      "type": "☕️ Cafe",
       "image": "https://media-cdn.tripadvisor.com/media/photo-s/0f/b0/a7/70/financial-district-community.jpg",
       "address": "20 Stone St, New York, NY 10004"
     },
     {
       "id": 5,
       "name": "Schilling Restaurant & Bar",
-      "type": "restaurant",
+      "type": "🍽 Restaurant",
       "image": "https://static.wixstatic.com/media/9894f8_f02775f921c64dafb21e3f1a6a1d854d~mv2.jpg/v1/fill/w_1920,h_1280,al_c/9894f8_f02775f921c64dafb21e3f1a6a1d854d~mv2.jpg",
       "address": "109 Washington St, New York, NY 10006"
     },
     {
       "id": 6,
       "name": "Black Fox Coffee",
-      "type": "cafe ☕️",
+      "type": "☕️ Cafe",
       "image": "https://331mrnu3ylm2k3db3s1xd1hg-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/black-fox-sprudge-10-740x481.jpg",
       "address": "70 Pine St, New York, NY 10005"
     },
     {
       "id": 7,
       "name": "Fraunces Tavern",
-      "type": "bar",
+      "type": "🍸 Bar",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Frauncestavern.JPG",
       "address": "54 Pearl St, New York, NY 10004"
     },
     {
       "id": 8,
       "name": "Harry's",
-      "type": "restaurant",
+      "type": "🍽 Restaurant",
       "image": "https://media-cdn.tripadvisor.com/media/photo-s/12/31/da/fe/harry-s-restaurant-in.jpg",
       "address": "1 Hanover Square, New York, NY 10004"
     },
     {
       "id": 9,
       "name": "Mad Dog & Beans Mexican Cantina",
-      "type": "restaurant",
+      "type": "🍽 Restaurant",
       "image": "https://getbento.imgix.net/accounts/81ac2a0e2542a9cf14ddbd7ec444d5d4/media/images/10532Bierhaus_NYC_-_IMG_0451_1-min_1.jpg",
       "address": "83 Pearl St, New York, NY 10004"
     },
     {
       "id": 10,
       "name": "Cafe Patoro",
-      "type": "cafe ☕️",
+      "type": "☕️ Cafe",
       "image": "https://pbs.twimg.com/media/Ek9xjUUU0AEOp_J.jpg",
       "address": "223 Front St, New York, NY 10038"
+    },
+    {
+      "id": 11,
+      "name": "The Fulton",
+      "type": "🍽 Restaurant",
+      "image": "https://static01.nyt.com/images/2019/07/31/dining/30Rest1/merlin_158301441_b20e0a82-3102-4475-b68f-dba93fa27cb7-jumbo.jpg",
+      "address": "89 South St, New York, NY 10038"
+    },
+    {
+      "id": 12,
+      "name": "The Dead Rabbit",
+      "type": "🍸 Bar",
+      "image": "https://media.cntraveler.com/photos/5a68d7e3ac56da0b3cb4c627/16:9/w_2560,c_limit/The-Dead-Rabbit-Grocery-and-Grog_2018-DR-Interiors-103.jpg",
+      "address": "30 Water St, New York, NY 10004"
+    },
+    {
+      "id": 13,
+      "name": "White Horse Tavern",
+      "type": "🍸 Bar",
+      "image": "https://nypost.com/wp-content/uploads/sites/2/2020/07/200609-white-horse-tavern-social-distancing.jpg",
+      "address": "25 Bridge St, New York, NY 10004"
+    },
+    {
+      "id": 14,
+      "name": "Ulysses",
+      "type": "🍸 Bar",
+      "image": "https://thumbs.dreamstime.com/b/new-york-ny-united-states-dec-view-historic-bar-ulysses-stone-street-located-financial-landscape-image-168158794.jpg",
+      "address": "58 Stone Street, 95 Pearl St, New York, NY 10004"
+    },
+    {
+      "id": 15,
+      "name": "La Colombe Coffee Roasters",
+      "type": "☕️ Cafe",
+      "image": "https://live.staticflickr.com/2829/33019626962_ea42a128fb_b.jpg",
+      "address": "67 Wall St, New York, NY 10005"
+    },
+    {
+      "name": "Broadstone Bar & Kitchen",
+      "type": "🍽 Restaurant",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/10/a6/89/3d/exterior-outdoors.jpg",
+      "address": "88 Broad St, New York, NY 10004",
+      "id": 16
     }
   ]
 }
