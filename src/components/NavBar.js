@@ -9,38 +9,24 @@ import {
     Route,
     Link
   } from "react-router-dom";
+
+  import NavLink from "react-router-dom"
 import LocationsPage from "./LocationsPage";
 
 function NavBar() {
         return (
-            <Router>
               <div>
                 <nav>
                   
-                      <Link to="/">Home </Link>
+                      <Link to="/" exact>Home </Link>
                     
-                      <Link to="/form">Form </Link>
+                      <Link to="/form" exact>Form </Link>
                   
-                      <Link to="/search">Search</Link>
-                   
+                      <Link to="/search" exact>Search</Link>    
                 </nav>
+                </div>
+         
         
-                <Switch>
-                <Route path="/">
-                  </Route>
-                  <Route path="/form">
-                    <Form />
-                  </Route>
-                  <Route path="/search">
-                    <Search />
-                  </Route>
-                  <Route path="*">
-                    <h1>404 not found</h1>
-                </Route>
-                 
-                </Switch>
-              </div>
-            </Router>
           );
         }
 

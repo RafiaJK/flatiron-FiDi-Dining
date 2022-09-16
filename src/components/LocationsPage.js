@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import Form from "./Form";
 import LocationsContainer from "./LocationsContainer";
 import Search from "./Search";
+import {Switch, Route, router} from "react-router-dom"
+import NavBar from "./NavBar";
+
 
 function LocationsPage() {
     const [locations, setLocations] = useState([])
@@ -39,9 +42,26 @@ function filterLocations (search){
 
   return (
     <main>
-      <Search filterLocations={filterLocations}/>
+      
+        <Switch>
+        <Route exact path="/">
+          <Search filterLocations={filterLocations}/>
+        <LocationsContainer locations={filteredLocations}/>
+        <Form updateLocations={updateLocations}/>
+        </Route>
+        <Route exact path="/search">
+        <Search filterLocations={filterLocations}/>
+        <LocationsContainer locations={filteredLocations}/>
+        </Route>
+        <Route exact path="/form">
+        <Form updateLocations={updateLocations}/>
+        </Route>
+      </Switch>
+
+     {/* <Search filterLocations={filterLocations}/>
       <LocationsContainer locations={filteredLocations}/>
-      <Form updateLocations={updateLocations}/>
+      <Form updateLocations={updateLocations}/> */}
+      
     </main>
   );
 }
