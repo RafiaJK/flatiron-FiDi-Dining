@@ -1,75 +1,74 @@
 {
-    "locations": [
-      {
-        "id": 1,
-        "name": "The Cauldron",
-        "type": "bar",
-        "image": "https://d2rf0detuhmti.cloudfront.net/wp-content/uploads/2019/11/tree-of-life.jpg",
-        "address": "47 Stone St, New York, NY 10004"
-      },
-      {
-        "id": 2,
-        "name": "Trinity Place",
-        "type": "restaurant",
-        "image": "https://resizer.otstatic.com/v2/photos/wide-huge/3/47910875.jpg",
-        "address": "115 Broadway, New York, NY 10006"
-      },
-      {
-        "id": 3,
-        "name": "787 Coffee",
-        "type": "cafe ☕️",
-        "image": "https://s3-media0.fl.yelpcdn.com/bphoto/iPBAOCeZ095xr8Be3_Ww1g/348s.jpg",
-        "address": "66 Pearl St, New York, NY 10004"
-      },
-      {
-        "id": 4,
-        "name": "Cafe Grumpy",
-        "type": "cafe ☕️",
-        "image": "https://media-cdn.tripadvisor.com/media/photo-s/0f/b0/a7/70/financial-district-community.jpg",
-        "address": "20 Stone St, New York, NY 10004"
-      },
-      {
-        "id": 5,
-        "name": "Schilling Restaurant & Bar",
-        "type": "restaurant",
-        "image": "https://static.wixstatic.com/media/9894f8_f02775f921c64dafb21e3f1a6a1d854d~mv2.jpg/v1/fill/w_1920,h_1280,al_c/9894f8_f02775f921c64dafb21e3f1a6a1d854d~mv2.jpg",
-        "address": "109 Washington St, New York, NY 10006"
-      },
-      {
-        "id": 6,
-        "name": "Black Fox Coffee",
-        "type": "cafe ☕️",
-        "image": "https://331mrnu3ylm2k3db3s1xd1hg-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/black-fox-sprudge-10-740x481.jpg",
-        "address": "70 Pine St, New York, NY 10005"
-      },
-      {
-        "id": 7,
-        "name": "Fraunces Tavern",
-        "type": "bar",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Frauncestavern.JPG",
-        "address": "54 Pearl St, New York, NY 10004"
-      },
-      {
-        "id": 8,
-        "name": "Harry's",
-        "type": "restaurant",
-        "image": "https://media-cdn.tripadvisor.com/media/photo-s/12/31/da/fe/harry-s-restaurant-in.jpg",
-        "address": "1 Hanover Square, New York, NY 10004"
-      },
-      {
-        "id": 9,
-        "name": "Mad Dog & Beans Mexican Cantina",
-        "type": "restaurant",
-        "image": "https://getbento.imgix.net/accounts/81ac2a0e2542a9cf14ddbd7ec444d5d4/media/images/10532Bierhaus_NYC_-_IMG_0451_1-min_1.jpg",
-        "address": "83 Pearl St, New York, NY 10004"
-      },
-      {
-        "id": 10,
-        "name": "Cafe Patoro",
-        "type": "cafe ☕️",
-        "image": "https://pbs.twimg.com/media/Ek9xjUUU0AEOp_J.jpg",
-        "address": "223 Front St, New York, NY 10038"
-      }
-
-    ]
-  }
+  "locations": [
+    {
+      "id": 1,
+      "name": "The Cauldron",
+      "type": "bar",
+      "image": "https://d2rf0detuhmti.cloudfront.net/wp-content/uploads/2019/11/tree-of-life.jpg",
+      "address": "47 Stone St, New York, NY 10004"
+    },
+    {
+      "id": 2,
+      "name": "Trinity Place",
+      "type": "restaurant",
+      "image": "https://resizer.otstatic.com/v2/photos/wide-huge/3/47910875.jpg",
+      "address": "115 Broadway, New York, NY 10006"
+    },
+    {
+      "id": 3,
+      "name": "787 Coffee",
+      "type": "cafe ☕️",
+      "image": "https://s3-media0.fl.yelpcdn.com/bphoto/iPBAOCeZ095xr8Be3_Ww1g/348s.jpg",
+      "address": "66 Pearl St, New York, NY 10004"
+    },
+    {
+      "id": 4,
+      "name": "Cafe Grumpy",
+      "type": "cafe ☕️",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/0f/b0/a7/70/financial-district-community.jpg",
+      "address": "20 Stone St, New York, NY 10004"
+    },
+    {
+      "id": 5,
+      "name": "Schilling Restaurant & Bar",
+      "type": "restaurant",
+      "image": "https://static.wixstatic.com/media/9894f8_f02775f921c64dafb21e3f1a6a1d854d~mv2.jpg/v1/fill/w_1920,h_1280,al_c/9894f8_f02775f921c64dafb21e3f1a6a1d854d~mv2.jpg",
+      "address": "109 Washington St, New York, NY 10006"
+    },
+    {
+      "id": 6,
+      "name": "Black Fox Coffee",
+      "type": "cafe ☕️",
+      "image": "https://331mrnu3ylm2k3db3s1xd1hg-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/black-fox-sprudge-10-740x481.jpg",
+      "address": "70 Pine St, New York, NY 10005"
+    },
+    {
+      "id": 7,
+      "name": "Fraunces Tavern",
+      "type": "bar",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Frauncestavern.JPG",
+      "address": "54 Pearl St, New York, NY 10004"
+    },
+    {
+      "id": 8,
+      "name": "Harry's",
+      "type": "restaurant",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/12/31/da/fe/harry-s-restaurant-in.jpg",
+      "address": "1 Hanover Square, New York, NY 10004"
+    },
+    {
+      "id": 9,
+      "name": "Mad Dog & Beans Mexican Cantina",
+      "type": "restaurant",
+      "image": "https://getbento.imgix.net/accounts/81ac2a0e2542a9cf14ddbd7ec444d5d4/media/images/10532Bierhaus_NYC_-_IMG_0451_1-min_1.jpg",
+      "address": "83 Pearl St, New York, NY 10004"
+    },
+    {
+      "id": 10,
+      "name": "Cafe Patoro",
+      "type": "cafe ☕️",
+      "image": "https://pbs.twimg.com/media/Ek9xjUUU0AEOp_J.jpg",
+      "address": "223 Front St, New York, NY 10038"
+    }
+  ]
+}

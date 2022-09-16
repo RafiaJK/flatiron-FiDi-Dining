@@ -1,6 +1,39 @@
-import React from "react";
+import React, {useState} from "react";
 
-function Form({handleChange, addLocation, formInput}) {
+function Form({updateLocations, addLocation}) {
+  const [formInput, setFormInput] = useState({
+    name: "",
+    type: "",
+    image: "",
+    address: ""
+  })
+
+  const newLocation = {
+    name: formInput.name,
+    type: formInput.type,
+    image: formInput.image,
+    address: formInput.address
+  }
+
+  function handleChange(e){
+    setFormInput({...formInput, [e.target.name]: e.target.value})
+  }
+
+  function addLocation(e){
+    e.preventDefault()
+    updateLocations(newLocation)
+
+    fetch("http://localhost:3001/locations", {
+      method: "POST",
+      headers: {
+        "Accept": "application/json",
+       "Content-Type":"application/json"
+    },
+     body: JSON.stringify(newLocation),
+    });
+  }
+
+
 
   return (
     <div className="new-location-form">
