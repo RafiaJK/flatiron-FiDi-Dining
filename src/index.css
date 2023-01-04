@@ -156,3 +156,16 @@ input:focus {
     width: calc(20% - 2rem);
   }
 }
+
+.navbar {
+  width: 100%;
+  overflow: auto;
+  font-size: 22px;
+}
+
+.navlink{
+  width: 33%;
+  float: left;
+  background-color: rgba(253, 210, 154, 0.5);
+  text-align: center;
+}

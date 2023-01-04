@@ -15,16 +15,11 @@ import LocationsPage from "./LocationsPage";
 
 function NavBar() {
         return (
-              <div>
+              <div className="navbar">
                 <nav>
-                  
-                      <Link to="/" exact>Home | </Link>
-
-                      <Link to="/search" exact>Search | </Link>   
-                    
-                      <Link to="/form" exact>Add A New Location</Link>
-                  
-                       
+                      <Link to="/" exact> <div className="navlink">Home</div></Link>
+                      <Link to="/search" exact><div className="navlink">Search</div></Link>   
+                      <Link to="/form" exact><div className="navlink">Add A New Location</div></Link>                       
                 </nav>
                 </div>
          
